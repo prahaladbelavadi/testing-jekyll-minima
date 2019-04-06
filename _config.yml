@@ -1,5 +1,5 @@
-title: Your awesome title
-author: GitHub User
+title: Website.com
+author: Author
 email: your-email@domain.com
 description: > # this means to ignore newlines until "show_exerpts:"
   Write an awesome description for your new site here. You can edit this
@@ -15,23 +15,23 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter: jekyllrb
-    github:  jekyll
+    twitter: twitter
+    github:  exercism
     rss: rss
-    # dribbble: jekyll
-    # facebook: jekyll
-    # flickr:   jekyll
-    # instagram: jekyll
-    # linkedin: jekyll
-    # pinterest: jekyll
-    # youtube: jekyll
-    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
-    # youtube_channel_name: CloudCannon
-    # telegram: jekyll
-    # googleplus: +jekyll
-    # microdotblog: jekyll
+    dribbble: jekyll
+    facebook: jekyll
+    flickr:   jekyll
+    instagram: jekyll
+    linkedin: jekyll
+    pinterest: jekyll
+    youtube: jekyll
+    youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+    youtube_channel_name: CloudCannon
+    telegram: jekyll
+    googleplus: +jekyll
+    microdotblog: jekyll
 
-    # Mastodon instances
+    # # Mastodon instances
     # mastodon:
     # - username: jekyll
     #   instance: example.com
@@ -49,3 +49,4 @@ theme: minima
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+ - jekyll-sitemap
