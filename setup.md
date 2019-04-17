@@ -16,7 +16,7 @@ Bundler installs and serves your jekyll site with version dependencies from gemf
 ### Liquid is a templating language similar to hugo.
 
 - Objects output content as {{page.title}}
-- tags are denoted by `{% wwdwd %}` and they control flow and logic
+- tags are denoted by {% comment %} `{% wwdwd %}` {% endcomment %}  and they control flow and logic
 - filters are similar to pipes in angular: They modify outputs: `{{ "hi" | capitalize }}`
 
 - front matter is used to set varibales for a page:
